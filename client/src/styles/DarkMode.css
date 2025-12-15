@@ -1,0 +1,310 @@
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .App {
+  background-color: #1a1a1a;
+}
+
+body.dark-mode .main-content {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+body.dark-mode .article-list-item {
+  background: linear-gradient(135deg, #2d2d2d 0%, #3a3a3a 100%);
+  border-color: #444;
+}
+
+body.dark-mode .article-list-item:hover {
+  background: linear-gradient(135deg, #3a3a3a 0%, #4a4a4a 100%);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+}
+
+body.dark-mode .article-list-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .article-list-excerpt {
+  color: #b0b0b0;
+}
+
+body.dark-mode .article-detail-container {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode .article-detail-title {
+  color: #e0e0e0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+body.dark-mode .article-content {
+  color: #d0d0d0;
+}
+
+body.dark-mode .section-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .section-header {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+  border-left-color: #667eea;
+}
+
+body.dark-mode .navbar {
+  background-color: #2d2d2d !important;
+  border-bottom: 1px solid #444;
+}
+
+body.dark-mode .navbar .navbar-brand,
+body.dark-mode .navbar .nav-link {
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .form-control {
+  background-color: #3a3a3a;
+  border-color: #555;
+  color: #e0e0e0;
+}
+
+body.dark-mode .form-control:focus {
+  background-color: #3a3a3a;
+  border-color: #667eea;
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-primary {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+body.dark-mode .btn-outline-primary:hover {
+  background-color: #667eea;
+  border-color: #667eea;
+  color: #fff;
+}
+
+body.dark-mode .card {
+  background-color: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode .top-ad-container {
+  background: linear-gradient(135deg, #2d2d2d 0%, #3a3a3a 100%);
+  border-color: #555;
+}
+
+body.dark-mode .ad-border-wrapper {
+  border-color: #666;
+}
+
+body.dark-mode .sidebar {
+  background-color: #2d2d2d;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .sidebar-item {
+  color: #e0e0e0;
+  border-left-color: transparent;
+}
+
+body.dark-mode .sidebar-item:hover {
+  background-color: #3a3a3a;
+  color: #667eea;
+  border-left-color: #667eea;
+}
+
+body.dark-mode .sidebar-item.active {
+  background-color: #3a3a3a;
+  color: #667eea;
+  border-left-color: #667eea;
+}
+
+body.dark-mode .professional-footer {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.95) 0%, rgba(30, 30, 30, 0.98) 100%);
+  border-top: 1px solid #444;
+}
+
+body.dark-mode .footer-site-name {
+  color: #ffffff;
+}
+
+body.dark-mode .footer-date-section {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+body.dark-mode .footer-email {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+body.dark-mode .footer-email:hover {
+  color: #ffffff;
+}
+
+body.dark-mode .footer-copyright-text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode .badge {
+  background-color: #667eea !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .text-muted {
+  color: #b0b0b0 !important;
+}
+
+body.dark-mode .article-section-badge {
+  background-color: #667eea;
+  color: #ffffff;
+}
+
+body.dark-mode .article-date {
+  color: #b0b0b0;
+}
+
+body.dark-mode .read-more-link {
+  color: #667eea;
+}
+
+body.dark-mode .read-more-link:hover {
+  color: #764ba2;
+}
+
+body.dark-mode .article-back-link {
+  color: #b0b0b0;
+}
+
+body.dark-mode .article-back-link:hover {
+  color: #667eea;
+}
+
+body.dark-mode .btn-primary {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+body.dark-mode .btn-primary:hover {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
+
+body.dark-mode .btn-outline-secondary {
+  border-color: #666;
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn-outline-secondary:hover {
+  background-color: #666;
+  border-color: #666;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-dark {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
+  color: #ffffff;
+}
+
+body.dark-mode .btn-dark:hover {
+  background-color: #4a4a4a;
+  border-color: #4a4a4a;
+}
+
+body.dark-mode .btn-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+  color: #1a1a1a;
+}
+
+body.dark-mode .btn-warning:hover {
+  background-color: #ec971f;
+  border-color: #ec971f;
+}
+
+body.dark-mode .navbar {
+  background-color: #2d2d2d !important;
+}
+
+body.dark-mode .navbar .navbar-brand {
+  color: #e0e0e0 !important;
+}
+
+body.dark-mode .navbar .form-control {
+  background-color: #3a3a3a;
+  border-color: #555;
+  color: #e0e0e0;
+}
+
+body.dark-mode .navbar .form-control::placeholder {
+  color: #999;
+}
+
+body.dark-mode .footer-logo {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.25) 0%, rgba(118, 75, 162, 0.25) 100%);
+  border-color: rgba(102, 126, 234, 0.5);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+body.dark-mode .footer-logo:hover {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.35) 0%, rgba(118, 75, 162, 0.35) 100%);
+  border-color: rgba(102, 126, 234, 0.7);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+body.dark-mode .social-icon {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .social-icon:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+body.dark-mode .footer-email-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode .section-page-container {
+  background: transparent;
+}
+
+body.dark-mode .top-ad-container {
+  border: 2px solid #555;
+}
+
+body.dark-mode .pagination {
+  background-color: transparent;
+}
+
+body.dark-mode .page-link {
+  background-color: #3a3a3a;
+  border-color: #555;
+  color: #e0e0e0;
+}
+
+body.dark-mode .page-link:hover {
+  background-color: #4a4a4a;
+  border-color: #667eea;
+  color: #ffffff;
+}
+
+body.dark-mode .page-item.active .page-link {
+  background-color: #667eea;
+  border-color: #667eea;
+  color: #ffffff;
+}
+
+body.dark-mode .page-item.disabled .page-link {
+  background-color: #2d2d2d;
+  border-color: #444;
+  color: #666;
+}
+

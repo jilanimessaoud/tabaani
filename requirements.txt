@@ -1,0 +1,49 @@
+# Tabaani Journalist Application - Requirements
+# Node.js Project Dependencies
+
+# ============================================
+# ROOT DEPENDENCIES (Development Tools)
+# ============================================
+concurrently==8.2.2
+nodemon==3.0.2
+
+# ============================================
+# SERVER DEPENDENCIES (Backend)
+# ============================================
+express==4.18.2
+mongoose==8.0.3
+cors==2.8.5
+dotenv==16.3.1
+bcryptjs==2.4.3
+jsonwebtoken==9.0.2
+multer==1.4.5-lts.1
+express-validator==7.0.1
+
+# ============================================
+# SERVER DEV DEPENDENCIES
+# ============================================
+nodemon==3.0.2
+
+# ============================================
+# CLIENT DEPENDENCIES (Frontend)
+# ============================================
+react==18.2.0
+react-dom==18.2.0
+react-router-dom==6.20.1
+react-scripts==5.0.1
+axios==1.6.2
+bootstrap==5.3.2
+react-bootstrap==2.9.1
+react-dnd==16.0.1
+react-dnd-html5-backend==16.0.1
+react-icons==4.12.0
+date-fns==2.30.0
+
+# ============================================
+# SYSTEM REQUIREMENTS
+# ============================================
+# Node.js: >= 14.0.0
+# npm: >= 6.0.0
+# MongoDB: >= 4.0.0
+# Operating System: Windows, macOS, or Linux
+
