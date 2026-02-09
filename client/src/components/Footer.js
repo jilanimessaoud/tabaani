@@ -173,7 +173,7 @@ const Footer = () => {
                 ©{currentYear} {siteName} {t('allRightsReserved')}
               </p>
               <p className="footer-powered-text">
-                Powered by jilani messaoud +216 90131297
+                Powered by Naviris Tech +216 90131297 Naviristech@gmail.com
               </p>
             </div>
           </div>
